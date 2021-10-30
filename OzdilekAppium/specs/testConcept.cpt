@@ -1,0 +1,46 @@
+
+# Alışveriş sayfasına gecis ve kontrol et
+* Uygulamanin acildigi kontrol edilir.
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" elemani tıklanabilir olunca tiklanir(ID)
+* "com.ozdilek.ozdilekteyim:id/nav_home" elementini bul ve "Anasayfa" metni ile sayfa kontrolunu yap(ID)
+# Kategoriler sayfasını ac, kontrol etme
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elemani tıklanabilir olunca tiklanir(ID)
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elementinin seçilebilir oldugunu kontrol edilir(ID)
+
+# Menuden kadın secenegine tiklanir
+* "//android.widget.TextView[contains(@text,'Kadın')]" elamani tıklanabilir oldugunda tiklanir(xpath)
+
+# Kategorilerden pantolon secme
+* "//android.widget.TextView[contains(@text,'Pantolon')]" elamani tıklanabilir oldugunda tiklanir(xpath)
+
+# Urunlerden rasgele bir urun secilir
+* "com.ozdilek.ozdilekteyim:id/imageView" rastgele sec(ID).
+* "//android.widget.TextView[contains(@text,'SEPETE EKLE')]" elementini bul ve "SEPETE EKLE" metni ile sayfa kontrolunu yap(XPATH)
+
+# Favorilere ekle islemi
+* Urunlerden rasgele bir urun secilir
+* "com.ozdilek.ozdilekteyim:id/imgFav" elemani tıklanabilir olunca tiklanir(ID)
+
+# Sepete ekleme islemi
+* Urunlerden rasgele bir urun secilir
+* "com.ozdilek.ozdilekteyim:id/tvInSizeItem" tiklanabilir urun bedenini tikla.(ID)
+* "1" saniye beklenir
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" elemani tıklanabilir olunca tiklanir(ID)
+* "com.ozdilek.ozdilekteyim:id/btnLogin" elementini bul ve "Giriş Yap" metni ile sayfa kontrolunu yap(ID)
+
+# İki kere kaydır
+
+* Asagi dogru kaydirilir
+* "1" saniye beklenir
+* Asagi dogru kaydirilir
+
+# Giris yap islemi
+* "com.ozdilek.ozdilekteyim:id/btnLogin" elementini bul ve "Giriş Yap" metni ile sayfa kontrolunu yap(ID)
+* "com.ozdilek.ozdilekteyim:id/etEposta" elementine "ossadossabossa@hotmail.com" yaz.(ID)
+* "com.ozdilek.ozdilekteyim:id/etPassword" elementine "Aa12345" yaz.(ID)
+
+# İki kere geri dönme
+* "com.ozdilek.ozdilekteyim:id/ivBack" elemani tıklanabilir olunca tiklanir(ID)
+* "1" saniye beklenir
+* "com.ozdilek.ozdilekteyim:id/ivBack" elemani tıklanabilir olunca tiklanir(ID)
+* "1" saniye beklenir
